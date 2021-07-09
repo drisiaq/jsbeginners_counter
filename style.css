@@ -1,0 +1,45 @@
+html, body{
+    background-color: #000;
+    margin: auto;
+}
+
+.bigger{
+    background-image: url('images/wood.jpg');
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    margin: 12px auto 12px auto;
+    padding-top: 100px;
+}
+.smaller{
+    margin: auto;
+    border: 3px solid white;
+    width: 300px;
+    height: 350px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 1px gray;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+h2{
+    font-size: 150px;
+    margin: -40px 0px -5px 0px;
+    color: green;
+}
+button{
+    display: block;
+    background-color: rgb(13, 39, 90);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    font-size: 14px;
+    
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
